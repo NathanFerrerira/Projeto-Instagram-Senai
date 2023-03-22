@@ -1,6 +1,6 @@
 h1{
     color:darkblue;
-    background-color: rgb(251, 248, 248);
+    background-color: rgb(192, 55, 241);
     background-size: 100%;
     
     font-size: xx-large;
@@ -14,7 +14,7 @@ header{
    background-size: 100%;
 }
 body{
-    background-color:papayawhip;
+    background-color:rgb(255, 255, 255);
     font-family: Arial, sans-serif;
 }
 nav{
@@ -102,16 +102,17 @@ img{
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 16px;
     line-height: 1.4;
 }
 p{
     background-color: lightgoldenrodyellow;
+    text-align: center;
 }
 
     #conteudo {
-    loading="lazy" width: 70%;
+    loading="lazy"
+    width: 70%;
     float: right;
     text-align: :left;
 
@@ -119,15 +120,17 @@ p{
     }
     #menu {
     Loading="lazy" 
-    width: 70%;
+    width: 40%;
     margin: 0; padding: 0;
-    float: left;
+    float: right;
+    
     }
     #menu ul li {
     margin: 0; padding: 0px;
     border-bottom: 0px solid #CCC;
-    text-align: left;
+    text-align:center;
     list-style-type: none;
+  
     }
     #menu a:link {
     background: #F5F5F5;
